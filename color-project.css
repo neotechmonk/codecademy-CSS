@@ -99,6 +99,8 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 128, 0, 0.75);
+    
   
   }
   
@@ -187,6 +189,7 @@ html {
     margin-bottom: 1.25rem;
     font-size: 1.125rem;
     font-weight: bold;
+    color: #9b9b9b;
   
   }
   
@@ -238,12 +241,12 @@ html {
   /* Red Swatches */
   
   .reds .base-color {
-    color: #ff002b;
+    color: hsl(350, 100%, 50%);
   }
   
   /* Red lightness decreases by 15 */
   .reds .lightness .color-1 {
-  
+  color : hsl(350, 100%, 80%)
   }
   
   .reds .lightness .color-2 {
@@ -463,6 +466,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color : rgba(0,0,0, 0.7);
   
   }
   
